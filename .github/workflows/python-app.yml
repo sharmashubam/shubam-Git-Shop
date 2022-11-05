@@ -36,4 +36,4 @@ jobs:
         flake8 . --count --exit-zero --max-complexity=10 --max-line-length=127 --statistics
     - Run main: Test with pytest
       python main.py: |
-        pytest
+        pipenv run pytest
